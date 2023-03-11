@@ -1,0 +1,24 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    constant_identifier_names: ignore
+    avoid_print: ignore
+    overridden_fields: ignore
+    prefer_collection_literals: ignore
+    avoid_function_literals_in_foreach_calls: ignore
+  exclude: 
+    - build/**
+    - assets/**
+    - ios/**
+    - android/**
+    - lib/objectbox.g.dart
+linter:
+  rules:
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - prefer_const_literals_to_create_immutables
+    - unnecessary_const
+    - use_key_in_widget_constructors
+    - constant_identifier_names
+    - directives_ordering

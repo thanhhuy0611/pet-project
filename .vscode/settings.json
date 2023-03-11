@@ -1,0 +1,28 @@
+{
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+  "dart.lineLength": 120,
+  "[dart]": {
+    "editor.formatOnSave": false
+  },
+  "dart.previewLsp": true,
+  "dart.analysisExcludedFolders": [
+    "**/.dart_tool/flutter_build/**",
+    "**/ios/**",
+    "**/android/**",
+    "**/assets/**",
+    "**/test/**",
+    "**/.fvm/**"
+  ],
+  "dart.doNotFormat": [
+    "**/test/**",
+    "**/.dart_tool/**",
+    "**/ios/**",
+    "**/android/**"
+  ]
+}

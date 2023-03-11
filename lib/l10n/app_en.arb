@@ -1,0 +1,15 @@
+{
+    "language": "English",
+    "hello": "Hello!",
+    "register": "Register",
+    "sign_up": "Sign up",
+    "log_in": "Log in",
+    "condition_on_register": "By signing up, you agree to Photo’s Terms of Service and Privacy Policy.",
+    "discover": "Discover",
+    "whats_new_today": "what's new today",
+    "browse_all": "browse all",
+    "see_more": "see more",
+    "user_name": "User name",
+    "password": "Password",
+    "confirm_password": "Confirm password"
+}
