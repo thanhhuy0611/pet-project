@@ -28,12 +28,16 @@ We use the following tools with specified version.
 
 **For the first time developer**  
 You need to install FVM before move to the next step:
-
 ```bash
 % dart pub global activate fvm
-% cd jaho_challenge
+```
+
+At root project folder: (ex: $User/project/jaho-challenge)
+```bash
+% fvm install 3.3.10
+% fvm use 3.3.10
 % fvm flutter pub get
-% fvm flutter pub get
+% fvm flutter run
 ```
 
 About FVM: https://fvm.app/docs/getting_started/overview
